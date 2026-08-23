@@ -1,6 +1,6 @@
 cask "monitorslate" do
-  version "1.0.6"
-  sha256 "1e3fa5cae77acdcd71f12d53753aa254db19ad1c1311362471aaa5d13efb61fd"
+  version "1.0.7"
+  sha256 "e904569956b134ca318f0c15a609a5fb90c5ba5f1bdee2b7c70809ddec4a573a"
 
   url "https://github.com/santanixdigitallab/monitorslate-releases/releases/download/v#{version}/MonitorSlate-v#{version}.zip"
   name "MonitorSlate"
