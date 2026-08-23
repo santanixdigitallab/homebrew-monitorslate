@@ -6,20 +6,18 @@ Official Homebrew Tap for **MonitorSlate** by **Santanix Digital Lab**.
 
 ```bash
 brew tap santanixdigitallab/monitorslate
-brew install --cask --no-quarantine monitorslate
+brew install --cask monitorslate
 ```
 
 Or in a single command:
 
 ```bash
-brew install --cask --no-quarantine santanixdigitallab/monitorslate/monitorslate
+brew install --cask santanixdigitallab/monitorslate/monitorslate
 ```
 
-> **Note on macOS Security (Gatekeeper)**:
-> If installed without `--no-quarantine`, you can allow the app by going to **System Settings → Privacy & Security → Open Anyway**, or running:
-> ```bash
-> xattr -cr /Applications/MonitorSlate.app
-> ```
+> **Note on macOS First Launch**:
+> If macOS displays a verification alert on first launch, you can allow the app once by going to:
+> **System Settings → Privacy & Security → Open Anyway** (or running `xattr -cr /Applications/MonitorSlate.app`).
 
 ## Updates
 
